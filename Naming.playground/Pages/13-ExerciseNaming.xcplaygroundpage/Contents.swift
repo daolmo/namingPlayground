@@ -27,12 +27,15 @@ let rhso = co - lhso
 //Number of pallets of each fruit
 let countOranges = 14
 let countWatermelons = 3
+
 //Weight of one pallet
 let orangeWeight = 100
 let watermelonWeight = 200
+
 let totalOrangeWeight = countOranges * orangeWeight
 let totalWatermelonWeight = countWatermelons * watermelonWeight
 let totalWeight = totalOrangeWeight + totalWatermelonWeight
+
 //Estimated weight to go on each side of the truck
 let estimatedWeight = totalWeight / 2
 //Orange pallets that go on the left side
